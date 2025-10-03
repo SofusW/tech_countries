@@ -7,8 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class Pages {
 
     @GetMapping("/")
-    public String welcome() {
-        return "Welcome to the countries page!";
+    public String index() {
+        return "home/index";
     }
 
 }
