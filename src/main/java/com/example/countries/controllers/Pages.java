@@ -8,7 +8,7 @@ public class Pages {
 
     @GetMapping("/")
     public String welcome() {
-        return "Welcome to the countries page! Jonathan din noob";
+        return "Welcome to the countries page!";
     }
 
 }
